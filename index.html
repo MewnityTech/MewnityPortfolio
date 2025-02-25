@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volodymyr Shevchenko | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+    <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about-me" class="active">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section id="about-me" class="tab active">
+            <img src="img/avatar.jpg" alt="Volodymyr Shevchenko" class="avatar">
+            <h1>Volodymyr Shevchenko</h1>
+            <div class="about-text">
+                <p><strong>I am 13. I like algebra, physics, English and of course IT technologies.</strong></p>
+                <p>I am <strong>13</strong> years old and currently <strong>studying HTML, CSS, JavaScript, and C#.</strong> In the <strong>future,</strong> I plan to learn <strong>Python.</strong> Originally from <strong>Ukraine,</strong> I moved to <strong>Ankara,</strong> the capital of <strong>Turkey,</strong> because of the <strong>war. P.s. now i am in warsaw;)</strong> I am a <strong>creative</strong> and <strong>interesting</strong> person, and when I <strong>grow up,</strong> I aspire to <strong>create</strong> something new and become famous <strong>worldwide.</strong></p>
+            </div>
+        </section>
+
+        <section id="portfolio" class="tab">
+            <h1>Portfolio</h1>
+            <ul id="portfolio-list">
+                <li><a href="#" data-id="1">Crazy Calculator</a></li>
+                <li><a href="#" data-id="2">Fake Web Messenger</a></li>
+                <li><a href="#" data-id="3">Quest App</a></li>
+                <li><a href="#" data-id="4">P5js Projects</a></li>
+                <li><a href="#" data-id="5">Flappy Bird</a></li>
+                <li><a href="#" data-id="6">Portfolio for my mom</a></li>
+                <li><a href="#" data-id="7">Airbus</a></li>
+            </ul>
+        </section>
+
+        <section id="contact" class="tab">
+            <h1>Contact</h1>
+            <div class="contact-info">
+                <p><strong>Email:</strong> berezovskogov@gmail.com</p>
+                <p><strong>Telegram:</strong> @mewntech</p>
+                <p>Nice to help you!</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Background Animation Elements -->
+    <div class="background-animation">
+        <div class="square" style="left: 10%;"></div>
+        <div class="square" style="left: 30%;"></div>
+        <div class="square" style="left: 50%;"></div>
+        <div class="square" style="left: 70%;"></div>
+        <div class="square" style="left: 90%;"></div>
+        <div class="square" style="left: 15%;"></div>
+        <div class="square" style="left: 85%;"></div>
+    </div>
+
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="project-title">Project Title</h2>
+            <p id="project-description">Project description goes here.</p>
+            <div id="project-images" class="project-gallery"></div>
+            <a id="project-link" href="#" target="_blank">Visit Project</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
