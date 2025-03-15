@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
 }
 
-/* Navigation styles */
+/* навигация */
 .navbar {
     position: fixed;
     width: 100%;
@@ -64,7 +64,7 @@ body {
     background-color: #0f0;
 }
 
-/* Responsive adjustments for navigation */
+/* тыктык */
 @media (min-width: 1200px) {
     .navbar ul li a {
         padding: 12px 30px;
@@ -101,7 +101,7 @@ body {
     }
 }
 
-/* Main content */
+/* меин */
 .content {
     position: relative;
     z-index: 1;
@@ -113,7 +113,6 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Tab system */
 .tab {
     display: none;
 }
@@ -128,7 +127,7 @@ body {
     to { opacity: 1; }
 }
 
-/* About me section */
+/* про меня крутого */
 .avatar {
     width: 150px;
     height: 150px;
@@ -161,7 +160,7 @@ strong, b {
     color: #ffcc00;
 }
 
-/* Portfolio section */
+/* портфолио */
 #portfolio-list {
     list-style-type: none;
     padding: 0;
@@ -191,7 +190,7 @@ strong, b {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Contact section */
+/* контакты */
 .contact-info {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
@@ -199,7 +198,6 @@ strong, b {
     margin-top: 20px;
 }
 
-/* Modal styles */
 .modal {
     display: none;
     position: fixed;
@@ -292,7 +290,7 @@ strong, b {
     transform: translateY(-2px);
 }
 
-/* Background animation */
+/* ыыы анимки тест виу */
 .background-animation {
     position: fixed;
     top: 0;
@@ -327,8 +325,6 @@ strong, b {
     background-color: rgba(0, 0, 255, 0.3);
     animation-duration: 20s;
 }
-
-/* Responsive design */
 @media (min-width: 1200px) {
     .content {
         max-width: 900px;
