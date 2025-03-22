@@ -16,11 +16,11 @@ $(document).ready(function() {
         }, 600);
     });
 
-    // Project data
+    // ПРОЕКТЫ БУДУ ОБНОВЛЯТЬ ЩА ФИГНЯ
     const projectData = {
         '1': {
             'title': 'Crazy Calculator',
-            'description': 'This is a CRAZY Calculator with unexpected behavior! Try clicking the "C" button to clear - it\'s quite funny! Or try 2+2= for a surprise.',
+            'description': 'УВЫ ЩА ЕГО НЕТ',
             'images': ['img/crazy_calculator1.png', 'img/crazy_calculator2.png'],
             'link': 'https://progcrafterq.github.io/CrazyCalculator/'
         },
@@ -50,13 +50,13 @@ $(document).ready(function() {
         },
         '6': {
             'title': 'Portfolio for my mom',
-            'description': 'Its a portfolio for my mom, she is still wainting for clients!',
+            'description': 'Some Portfolio!',
             'images': ['img/portfm1.png', 'img/portfm2.png'],
             'link': 'https://progcrafterq.github.io/LiliiaShevchenko/'
         },
         '7': {
             'title': 'Airbus',
-            'description': 'Its a birthday presend for my dad. ',
+            'description': 'pull up pull up. ',
             'images': ['img/airbus1.png', 'img/airbus2.png'],
             'link': 'https://progcrafterq.github.io/Airbus/'
         }
@@ -75,7 +75,6 @@ $(document).ready(function() {
             $('#project-images').append(`<img src="${img}" alt="${data.title}" loading="lazy">`);
         });
         
-        // Update project link
         $('#project-link').attr('href', data.link);
         if (data.link === '#') {
             $('#project-link').text('Coming Soon');
@@ -110,7 +109,7 @@ $(document).ready(function() {
         }
     }
     
-    // Generate animated squares randomly
+    // МИНКРИФТ КУБИКИ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
     function createRandomSquares() {
         const squaresContainer = $('.background-animation');
         squaresContainer.empty();
